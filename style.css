@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #4b0082, #000000); 
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(75, 0, 130, 0.9); /* fundo roxo escuro */
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* sombra do cabeçalho */
+}
+
+#titulo {
+    color: #ffffff; 
+    font-family: 'Playfair Display', serif; 
+    font-size: 3.5em; 
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+main {
+    padding: 20px;
+    text-align: center; 
+}
+
+.imagem-destaque {
+    display: block;
+    margin: 20px auto;
+    width: 70%; /* tamanho definido no CSS */
+    border-radius: 15px; /* efeito de borda arredondada */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s; 
+}
+
+.imagem-destaque:hover {
+    transform: scale(1.05); /* bagulho de zoom */
+}
+
+.descricao {
+    font-size: 1.5em;
+    margin: 20px;
+    line-height: 1.6; /* melhora a legibilidade */
+    max-width: 800px; /* limita a largura do texto */
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h2 {
+    font-family: 'Playfair Display', serif; 
+    color: #e0b0ff; 
+    margin-top: 40px;
+    font-size: 2.5em; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.musicas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centraliza os cards */
+    margin-top: 20px;
+}
+
+.musica-card {
+    background-color: rgba(75, 0, 130, 0.8); 
+    border-radius: 10px; /* bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    margin: 15px;
+    padding: 20px;
+    width: 250px; /* largura fixa dos cards */
+    transition: transform 0.3s; 
+}
+
+.musica-card:hover {
+    transform: translateY(-5px); /* efeito ao passar o mouse */
+}
+
+.musica-card h3 {
+    color: #e0b0ff; 
+    margin: 0 0 10px; 
+}
+
+.musica-card p {
+    color: #ffffff; 
+}
+
+#contato {
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(75, 0, 130, 0.9); 
+    color: #ffffff; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); 
+}
+
+footer p {
+    margin: 0; 
+}
+button {
+    background-color: #5c2b7c; 
+    color: #291a5c; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1.2em; 
+    transition: background-color 0.3s; 
+}
+button:hover {
+    background-color: #3b2f46; 
+}
+button:active {
+    transform: scale(0.95); 
+}
+button:focus {
+    outline: none; 
+}
+.odo{
+    margin: 15px 20px;
+}
+.feitos-lista {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: left; 
+    max-width: 800px; 
+    margin: 0 auto;
+    font-size: 1.2em; 
+}
+.feitos-lista li {
+    margin: 10px 0; 
+    padding: 10px; 
+    background-color: rgba(75, 0, 130, 0.8); 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+.feitos-lista li:hover {
+    background-color: rgba(75, 0, 130, 0.9); 
+    cursor: pointer; 
+}
+#pag2{
+    background:url('5660676.jpg');
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#melhor-musica{
+    font-family: monospace, sans-serif;
+    font-size: small;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+#melhor-musica h2{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin: 0;
+}
+#back{
+
+    position: fixed;
+    bottom:20px;
+    left:20px;
+
+}
+#titulo2{color: #ffffff; 
+    font-family: initial, sans-serif; 
+    font-size: 3.5em; 
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
